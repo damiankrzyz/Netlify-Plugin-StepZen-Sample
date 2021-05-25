@@ -1,15 +1,9 @@
 {
-    "name": "netlify-build-plugin-example",
-    "version": "1.0.0",
-    "description": "This is a small netlify project.",
-    "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/remotesynth/Netlify-Plugin-StepZen-Sample.git"
-    },
-    "author": "",
-    "license": "MIT",
-    "dependencies": {
-      "@stepzen/sdk": "^0.9.27"
-    }
-  }
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "slugify": "^1.5.3"
+  },
+  "scripts": {
+    "dev": "node pullContent.js && hugo serve"
+}
+}
