@@ -5,3 +5,5 @@ stepzen/config.yaml
 .env
 /node_modules/
 /content/blog/
+# Local Netlify folder
+.netlify

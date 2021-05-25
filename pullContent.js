@@ -54,7 +54,7 @@ const req = https.request(options, (res) => {
         categories += '\n- ' + category.name;
       });
       let content = markdownFileTemplate(post, categories);
-      let filename = __dirname + '/content/blog/' + slugify(post.title) + '.md';
+      let filename = './content/blog/' + slugify(post.title) + '.md';
       fs.writeFileSync(filename, content);
     });
   });
