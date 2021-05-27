@@ -1,7 +1,6 @@
 const https = require('https');
 const fs = require('fs');
 const slugify = require('slugify');
-//require('dotenv').config();
 
 const data = JSON.stringify({
   query: `{
